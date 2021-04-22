@@ -1,0 +1,28 @@
+.Hand {
+  text-align: center;
+}
+.Hand-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.game-winner {
+  color: #1a411b;
+}
+
+.game-loser {
+  color: #770028;
+}
+
+.button{
+  padding: 5px 14px;
+    margin-top: 12px;
+    border-radius: 7px;
+    background-color: forestgreen;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: inherit;
+    font-weight: 600;
+}
